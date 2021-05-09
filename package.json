@@ -1,9 +1,15 @@
 {
   "name": "react-vite-scaffold",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "React Vite Scaffold",
+  "repository": "https://github.com/shuangmianxiaoQ/react-vite-scaffold",
+  "author": "shuangmianxiaoQ <1245814811@qq.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build-test": "tsc && vite build --mode test",
+    "build-prod": "tsc && vite build --mode prod",
     "serve": "vite preview"
   },
   "dependencies": {
@@ -17,6 +23,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react-refresh": "^1.3.1",
+    "dotenv": "^9.0.1",
     "less": "^4.1.1",
     "typescript": "^4.1.2",
     "vite": "^2.1.5",
